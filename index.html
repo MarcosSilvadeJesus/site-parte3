@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: black;
+            margin: 0%;
+        }
+        
+        .borda {
+            width: 30%;
+            border: solid 1px;
+            background-color:blue;
+            border-radius: 50px 50px;
+        }
+        .principal {
+            padding: 20px;
+            margin: auto;
+        }
+
+        .container {
+            display: grid;
+        }
+        
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: blanchedalmond;
+            
+
+        }
+        /*Criando menu dos links*/
+        .menu {
+            width: 355px;
+            grid-column-start: 4px;
+            grid-column-end: 12px;
+            justify-content: center;
+            background-color: red;
+            border-radius: 70px 70px;
+
+
+        }
+
+        /*Tirando o marcador de bolinhas*/
+        ul {
+            list-style-type: none;
+            
+        }
+        
+        /*Deixando o li a direita*/
+        li {
+            float: left;
+            
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 20px 20px;
+            border: solid black 1px;
+            color:red;
+            background-color: blue;
+        }
+
+        a:hover {
+            background-color: red;
+            color: blue;
+        }
+        
+        h1 { /*mudando cor da fonte e centralizando o texto*/
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            color: greenyellow;
+        }
+
+        h3 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            color: red;
+        }
+        
+        p {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            color: green;
+        }
+
+        
+
+
+
+
+      
+    </style>
+    
+</head>
+<body>
+    <header class="container menu principal">
+        <nav>
+            <!--Criando lista-->
+            <ul>
+                <li><a href="https://marcossilvadejesus.github.io/site-parte1/">Perfil</a></li>
+                <li><a href="https://marcossilvadejesus.github.io/site-parte2/">Perfil profissional</a></li>
+                <li><a href="https://marcossilvadejesus.github.io/site-parte4/">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+<br>
+
+<img src="img/Captura de Tela (267).png" alt="Meu logo" title="Logo Nome">
+
+<br>
+
+    <h1>Contatos:</h1>
+        <br>
+    <div class="borda principal">
+        <h3>Telefone:</h3>
+            <p>3922-5649</p>
+        <h3>Celular:</h3>
+            <p>11 9 4320-3641</p>
+        <h3>E-mail:</h3>
+            <p>ms2605242@gmail.com</p>
+    </div>
+<br>
+    <h1>Projetos:</h1>
+    <h3 style="color: blue;">RGB - Formulário de reclamação</h3> 
+    <div class="container menu principal">
+        <img src="img/Captura de Tela (268).png" alt="sitetitulo" title="meusitetitulo">
+        <a href="https://marcossilvadejesus.github.io/teste/"></a>
+    </div>
+
+<br>
+    <h1>Projeto:</h1>
+    <h3 style="color: blue;">Título</h3>
+    <div class="container menu principal"> 
+        <img src="img/Captura de Tela (269).png" alt="sitetitulo" title="meusitetitulo">
+        <a href="https://marcossilvadejesus.github.io/teste2/"></a>
+    </div>
+            
+    
+    
+
+</body>
+</html>
